@@ -3,18 +3,17 @@ import React from "react";
 
 //Create the component logic in a function
 const MyCustomComponent = () =>{
+
+    
     return (
-        <div>
-        <p>My first components</p>
+        <div className="MyCustomComponent">
+        <p>Javascript frameworks</p>
+        <hr/>
 
         <ul>
             <li>
                 ReactJS
-
-                
             </li>
-
-            <a href="www.koko.com">Koko link</a>
 
             <li>
                 AngularJS
@@ -27,8 +26,6 @@ const MyCustomComponent = () =>{
     </div>
     
     )
-    
-   
     
 }
 
