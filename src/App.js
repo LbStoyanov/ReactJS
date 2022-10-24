@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import MyCustomComponent from "./MyCustomComponent";
 import { MyCustomComponent2 } from "./MyCustomComponent2";
+import { EventsComponents } from "./EventsComponents";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
         <p>Welcome to ReactJS</p>
 
         <div className="Components">
+          <hr />
+            <EventsComponents />
           <hr />
           <MyCustomComponent2 />
           <hr />

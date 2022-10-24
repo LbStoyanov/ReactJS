@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#clickMe-btn{
+  background-color: blue;
+  margin-bottom: 5px;
+}
+
+#box{
+  width: 200px;
+  height: 200px;
+  border: 5px solid red;
+  background-color: chartreuse;
+  margin-top: 5px;
+  text-align: center;
+  line-height: 170px;
+
+}
