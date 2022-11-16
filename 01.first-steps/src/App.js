@@ -3,6 +3,9 @@ import "./App.css";
 import MyCustomComponent from "./MyCustomComponent";
 import { MyCustomComponent2 } from "./MyCustomComponent2";
 import { EventsComponents } from "./EventsComponents";
+import { MyFirstUsestate} from"./components/MyFirstUsestate";
+
+
 
 function App() {
   return (
@@ -11,13 +14,17 @@ function App() {
         {<img src={logo} className="App-logo" alt="logo" />}
         <p>Welcome to ReactJS</p>
 
+        <MyFirstUsestate />
+
         <div className="Components">
           <hr />
             <EventsComponents />
           <hr />
-          <MyCustomComponent2 />
+            <MyCustomComponent2 />
           <hr />
-          <MyCustomComponent />
+            <MyCustomComponent />
+          <hr />
+          
         </div>
       </header>
     </div>
